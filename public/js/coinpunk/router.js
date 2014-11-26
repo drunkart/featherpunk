@@ -72,7 +72,7 @@ coinpunk.router.map('#/backup/download').to(function() {
 
     var payload = coinpunk.wallet.encryptPayload();
     var blob = new Blob([payload], {type: "text/plain;charset=utf-8"});
-    saveAs(blob, "coinpunk-wallet.txt");
+    saveAs(blob, "feathercoin-wallet.txt");
     coinpunk.router.route('backup');
   });
 });
