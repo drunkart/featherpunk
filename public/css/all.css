@@ -8,6 +8,11 @@
 
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 
+body {
+    background-image: url("https://backgrounds.wetransfer.net/anndonnl_1680x1050.jpg");
+
+}
+
 article,
 aside,
 details,
@@ -1922,22 +1927,20 @@ output {
 }
 
 .form-control {
-  display: block;
-  width: 100%;
-  height: 34px;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.428571429;
-  color: #555555;
-  vertical-align: middle;
-  background-color: #ffffff;
-  background-image: none;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+      display: block;
+    width: 100%;
+    height: 48px;
+    padding: 10px 2px;
+    font-size: 26px;
+    line-height: 0;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #FFF;
+    background-image: none;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
 
 .form-control:focus {
@@ -2328,9 +2331,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-  color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  color: #fff;
+  background-color: #ED1C24;
+  border-color: #ED1C24;
 }
 
 .btn-primary:hover,
@@ -2452,8 +2455,8 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-success {
   color: #ffffff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #00A2E8;
+  border-color: #00A2E8;
 }
 
 .btn-success:hover,
@@ -2571,10 +2574,10 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .btn-lg {
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
-  border-radius: 6px;
+  padding: 10px 55px;
+  font-size: 26px;
+  line-height: 1;
+  border-radius: 0px;
 }
 
 .btn-sm,
@@ -3738,26 +3741,26 @@ input[type="button"].btn-block {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 
 .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 
 .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .btn-group > .btn + .dropdown-toggle {
   padding-right: 8px;
-  padding-left: 8px;
+  padding-left: 0px;
 }
 
 .btn-group > .btn-lg + .dropdown-toggle {
@@ -3901,7 +3904,7 @@ input[type="button"].btn-block {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 select.input-group-lg > .form-control,
@@ -3924,7 +3927,7 @@ textarea.input-group-lg > .input-group-btn > .btn {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 
 select.input-group-sm > .form-control,
@@ -8442,3 +8445,5 @@ td.visible-print {
   font-weight: 700;
   src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(../fonts/droidsans-bold.ttf) format('truetype');
 }
+Status API Training Shop Blog About Help
+© 2015 GitHub, Inc. Terms Privacy Security Contact
